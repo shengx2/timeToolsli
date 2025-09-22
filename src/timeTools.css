@@ -1,6 +1,14 @@
 .my-margin {
-  margin: 2rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
+.my-input {
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+  margin-left: 4rem;
+}
+
+/* margin boxes in classes is niet consistent */
 
 p {
   font-size: 2rem;
@@ -12,6 +20,11 @@ p {
   /* padding: 5px 10px; */
   border: none;
   cursor: pointer;
-  margin: 1rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.ms {
+  font-size: 0.8em;
 }
 

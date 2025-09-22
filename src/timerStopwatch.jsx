@@ -21,28 +21,39 @@ export default function MyPage() {
   const seconds = Math.floor((milliseconds % 60000) / 1000);
   const ms = Math.floor((milliseconds % 1000) / 10); // 2-digit ms
 
-  const formattedTime =
-    `${String(hours).padStart(2, '0')}:` +
-    `${String(minutes).padStart(2, '0')}:` +
-    `${String(seconds).padStart(2, '0')}.` +
-    `${String(ms).padStart(2, '0')}`;
+const formattedTime = (
+  <>
+    <span>{String(hours).padStart(2, '0')}:</span>
+    <span>{String(minutes).padStart(2, '0')}:</span>
+    <span>{String(seconds).padStart(2, '0')},</span>
+    <span className="ms">{String(ms).padStart(2, '0')}</span>
+  </>
+);
 
   return (
+    <>    
     <div className="my-margin">
       <h1>Stopwatch</h1>
-      <p>Timer: {formattedTime}</p>
-      <button 
-        className="my-btn"
-        onClick={() => setIsRunning(prev => !prev)}
-      >
-        {isRunning ? 'Stop' : 'Start'}
-      </button>
-      <button 
+        <p>Timer: {formattedTime}</p>
+        <button 
+          className="my-btn"
+          onClick={() => setIsRunning(prev => !prev)}
+        >
+          {isRunning ? 'Stop' : 'Start'}
+        </button>
+        <button 
         className="my-btn"
         onClick={() => setMilliseconds(0)}
-      >
-        Reset
-      </button>
+        >
+          Reset
+        </button>
     </div>
+    <div className="my-input">
+      <input type="text" />
+    </div>
+     <div className="my-input">
+      <input type="text" />
+    </div>
+    </>
   );
 }
