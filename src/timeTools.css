@@ -1,0 +1,17 @@
+.my-margin {
+  margin: 2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.my-btn {
+  background: blue;
+  color: white;
+  /* padding: 5px 10px; */
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+
