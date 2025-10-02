@@ -31,10 +31,10 @@ const formattedTime = (
 );
 
   return (
-    <>    
+    <>     
     <div className="my-margin">
       <h1>Stopwatch</h1>
-        <p>Timer: {formattedTime}</p>
+        <p>{formattedTime}</p>
         <button 
           className="my-btn"
           onClick={() => setIsRunning(prev => !prev)}
@@ -62,7 +62,7 @@ const formattedTime = (
     {/* Kan op 3 regels  */}
     {/* loop functie?  */}  
     {/* of component?  */}
-    <textarea className="my-input" cols="30" rows="15">fsdfs</textarea>
+    <textarea className="my-input" cols="28" rows="15"></textarea>
     </>
   );
 }

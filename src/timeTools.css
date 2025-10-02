@@ -1,17 +1,22 @@
-.my-margin {
-  margin-right: 3rem;
+body {
   margin-left: 3rem;
 }
-.my-input {
-  margin-top: 1.5rem;
-  margin-right: 3rem;
-  margin-left: 4rem;
+
+.my-margin {
+  margin-bottom: 3rem;
 }
 
-/* margin boxes in classes is niet consistent */
+.my-input {
+  margin-top: 1rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+/* To do: Margin boxes in classes is niet consistent */
 
 p {
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-left: 0.5rem;
 }
 
 .my-btn {
@@ -20,11 +25,36 @@ p {
   /* padding: 5px 10px; */
   border: none;
   cursor: pointer;
+  margin-left: 1.5rem;
   margin-right: 2rem;
-  margin-left: 1rem;
 }
 
 .ms {
   font-size: 0.8em;
 }
 
+/* Responsiveness */
+
+/* Lower than 550px */
+
+@media screen and (max-width: 550px) {
+  body {
+    margin: 1 auto;  
+    width: 300px;
+  }
+  .my-btn {
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    /* To do: Button not centered together with timer digits */
+  }
+  .my-input {
+    margin-top: 1rem;
+  }
+  p {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* background-color: blue; */
+  }
+}
