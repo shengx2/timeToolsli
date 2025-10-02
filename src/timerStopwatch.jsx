@@ -39,7 +39,9 @@ const formattedTime = (
           className="my-btn"
           onClick={() => setIsRunning(prev => !prev)}
         >
-          {isRunning ? 'Stop' : 'Start'}
+          {isRunning ? 'Pause' : 'Start'}
+          {/* To do: add another state and if else statement */}
+          {/* To do: Add labels object with strings  */}
         </button>
         <button 
         className="my-btn"
@@ -49,11 +51,20 @@ const formattedTime = (
         </button>
     </div>
     <div className="my-input">
-      <input type="text" />
+      <input type="text" size="35"/>
     </div>
      <div className="my-input">
-      <input type="text" />
+      <input type="text" size="35"/>
     </div>
+    <div className="my-input">
+      <input type="text" size="35"/>
+    </div>
+    {/* Kan op 3 regels  */}
+    {/* loop functie?  */}  
+    {/* of component?  */}
+    <textarea className="my-input" cols="30" rows="15">fsdfs</textarea>
     </>
   );
 }
+
+// 
