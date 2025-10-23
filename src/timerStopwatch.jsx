@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './timeTools.css';
-
+import { FaPlay, FaPause } from "react-icons/fa";
 
 export default function MyPage() {
   const [milliseconds, setMilliseconds] = useState(0);
@@ -39,12 +39,22 @@ const formattedTime = (
           className="my-btn"
           onClick={() => setIsRunning(prev => !prev)}
         >
-          {isRunning ? 'Pause' : 'Start'}
+           {isRunning ? 
+           <FaPause 
+            className="my-test" 
+            size={12} 
+            /> 
+            : 
+            <FaPlay 
+              className="my-test" 
+              size={12} 
+            />
+            }
           {/* To do: add another state and if else statement */}
           {/* To do: Add labels object with strings  */}
         </button>
         <button 
-        className="my-btn"
+        className="my-btn my-test"
         onClick={() => setMilliseconds(0)}
         >
           Reset
