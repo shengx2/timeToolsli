@@ -26,15 +26,15 @@ h1 {
 }
 p {
   font-size: 4rem;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   /* margin-left: 0.5rem; */
     /* border-style: solid; */
   /* border-color: red;  */
 }
 
 .my-btn {
-  background: blue;
+  background: cyan;
   color: white;
   /* padding: 5px 10px; */
   border: none;
