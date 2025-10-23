@@ -1,10 +1,8 @@
 body {
-  margin-left: 1rem;
-  /* border-style: solid; */
-  /* border-color: red; */
-  /* display: flex; */
-  /* justify-content: center; */
-}
+  margin-left: 2rem;
+  /* border-style: solid; 
+  border-color: red;  */
+} 
 
 .my-margin {
   margin-bottom: 3rem;
@@ -15,32 +13,32 @@ body {
 .my-input {
   margin-top: 1rem;
   margin-right: 0rem;
-  margin-left: 0rem; 
+  margin-left: 1rem; 
 }
 
 /* To do: Margin boxes in classes is niet consistent */
 
 h1 {
-  display: flex;
-  justify-content: center;
+  margin-left: 2rem;
 }
+
 p {
-  font-size: 4rem;
-  display: flex;
-  justify-content: center;
+  margin-left: 2rem;
+  font-size: 3.5rem;
+  /* display: flex;
+  justify-content: center; */
   /* margin-left: 0.5rem; */
     /* border-style: solid; */
   /* border-color: red;  */
 }
 
 .my-btn {
-  background: yellow;
+  background: blue;
   color: white;
   /* padding: 5px 10px; */
   border: none;
   cursor: pointer;
-  margin-left: 2.5rem;
-  margin-right: 1.5rem;
+  margin-left: 4rem;
 }
 /* .my-reset {
   padding-top: 2rem;
@@ -72,7 +70,7 @@ p {
   p {
     font-size: 3rem;
     margin-right: 1rem;
-    margin-left: 1rem;
+    margin-left: 2.6rem;
     /* background-color: blue Bleu de Chanel; */
   }
   .ms {
