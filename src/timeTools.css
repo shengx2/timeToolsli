@@ -6,8 +6,6 @@ body {
 
 .my-margin {
   margin-bottom: 3rem;
-  /* border-style: solid;
-  border-color: blue;  */
 }
 
 .my-input {
@@ -16,7 +14,7 @@ body {
   margin-left: 1rem; 
 }
 
-/* To do: Margin boxes in classes is niet consistent */
+/*justify content center = the stopwatch will shaking */
 
 h1 {
   margin-left: 2rem;
@@ -25,33 +23,18 @@ h1 {
 p {
   margin-left: 2rem;
   font-size: 3.5rem;
-  /* display: flex;
-  justify-content: center; */
-  /* margin-left: 0.5rem; */
-    /* border-style: solid; */
-  /* border-color: red;  */
 }
 
 .my-btn {
   background: blue;
   color: white;
-  /* padding: 5px 10px; */
   border: none;
   cursor: pointer;
   margin-left: 4rem;
 }
-/* .my-reset {
-  padding-top: 2rem;
-} */
-
-/* .my-test {
-  width: 0.5rem;
-} */
 
 .ms {
   padding-top: 0.8rem;
-    /* border-style: solid; */
-  /* border-color: blue;  */
   font-size: 0.8em;
 }
 
@@ -71,12 +54,9 @@ p {
     font-size: 3rem;
     margin-right: 1rem;
     margin-left: 2.6rem;
-    /* background-color: blue Bleu de Chanel; */
   }
   .ms {
   padding-top: 0.5rem;
-    /* border-style: solid; */
-  /* border-color: blue;  */
   font-size: 0.8em;
 }
 }
