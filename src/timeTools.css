@@ -1,29 +1,9 @@
-body {
-  margin-left: 2rem;
-  /* border-style: solid; 
-  border-color: red;  */
-} 
 
-.my-margin {
-  margin-bottom: 3rem;
-}
 
-.my-input {
-  margin-top: 1rem;
-  margin-right: 0rem;
-  margin-left: 1rem; 
-}
 
-/*justify content center = the stopwatch will shaking */
-/* test */
 
-h1 {
-  margin-left: 2rem;
-}
-
-p {
-  margin-left: 2rem;
-  font-size: 3.5rem;
+.bg-black42 {
+  background-color: #242424;
 }
 
 .my-btn {
@@ -31,11 +11,9 @@ p {
   color: white;
   border: none;
   cursor: pointer;
-  margin-left: 4rem;
 }
 
 .ms {
-  padding-top: 0.8rem;
   font-size: 0.8em;
 }
 
@@ -52,7 +30,6 @@ p {
     margin-top: 1rem;
   }
   p {
-    font-size: 3rem;
     margin-right: 1rem;
     margin-left: 2.6rem;
   }
@@ -60,4 +37,4 @@ p {
   padding-top: 0.5rem;
   font-size: 0.8em;
 }
-}
+} 
