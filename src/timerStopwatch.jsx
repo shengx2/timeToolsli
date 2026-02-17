@@ -32,12 +32,11 @@ const formattedTime = (
 
   return (
     <>     
-    <div className="text-white m-5">
-      <h1 class="fw-bold">Stopwatch</h1>
-        <h2 class="mt-4">{formattedTime}</h2>
-
+    <div className="my-margin">
+      <h1>Stopwatch</h1>
+        <p>{formattedTime}</p>
         <button 
-          className="my-btn" 
+          className="my-btn"
           onClick={() => setIsRunning(prev => !prev)}
         >
            {isRunning ? 
@@ -60,35 +59,20 @@ const formattedTime = (
         >
           Reset
         </button>
-<div class="mt-3">
-  <div class="input-group mb-4 mt-4">
-    <div class="input-group-text">
-      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input"/>
     </div>
-    <input type="text" class="form-control" aria-label="Text input with checkbox"/>
-  </div>    
-  <div class="input-group mb-4">
-    <div class="input-group-text">
-      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input"/>
+    <div className="my-input">
+      <input type="text" size="35"/>
     </div>
-    <input type="text" class="form-control" aria-label="Text input with checkbox"/>
-  </div>    
-  <div class="input-group mb-4">
-    <div class="input-group-text">
-      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input"/>
+     <div className="my-input">
+      <input type="text" size="35"/>
     </div>
-    <input type="text" class="form-control" aria-label="Text input with checkbox"/>
-  </div>   
-  <div class="input-group">
-    <textarea class="form-control" aria-label="With textarea" rows="10"placeholder='Notes:'></textarea>
-</div>
-
-
-
-
-        </div>
-
-</div>
+    <div className="my-input">
+      <input type="text" size="35"/>
+    </div>
+    {/* Kan op 3 regels  */}
+    {/* loop functie?  */}  
+    {/* of component?  */}
+    <textarea className="my-input" cols="28" rows="15"></textarea>
     </>
   );
 }

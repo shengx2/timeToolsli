@@ -1,16 +1,33 @@
+body {
+  margin-left: 3rem;
+}
 
+.my-margin {
+  margin-bottom: 3rem;
+}
 
+.my-input {
+  margin-top: 1rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
 
+/* To do: Margin boxes in classes is niet consistent */
+/* fix */
 
-.bg-black42 {
-  background-color: #242424;
+p {
+  font-size: 3rem;
+  margin-left: 0.5rem;
 }
 
 .my-btn {
   background: blue;
   color: white;
+  /* padding: 5px 10px; */
   border: none;
   cursor: pointer;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
 }
 
 .ms {
@@ -26,15 +43,19 @@
     margin: 1 auto;  
     width: 300px;
   }
+  .my-btn {
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    /* To do: Button not centered together with timer digits */
+  }
   .my-input {
     margin-top: 1rem;
   }
   p {
+    font-size: 2.5rem;
     margin-right: 1rem;
-    margin-left: 2.6rem;
+    margin-left: 1rem;
+    /* background-color: blue; */
   }
-  .ms {
-  padding-top: 0.5rem;
-  font-size: 0.8em;
 }
-} 
