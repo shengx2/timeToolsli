@@ -61,18 +61,18 @@ const formattedTime = (
         </button>
     </div>
     <div className="my-input">
-      <input type="text" size="35"/>
+      <input type="text" size="40"/>
     </div>
      <div className="my-input">
-      <input type="text" size="35"/>
+      <input type="text" size="40"/>
     </div>
     <div className="my-input">
-      <input type="text" size="35"/>
+      <input type="text" size="40"/>
     </div>
     {/* Kan op 3 regels  */}
     {/* loop functie?  */}  
     {/* of component?  */}
-    <textarea className="my-input" cols="28" rows="15"></textarea>
+    <textarea className="my-input" cols="39" rows="15"></textarea>
     </>
   );
 }
