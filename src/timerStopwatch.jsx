@@ -50,8 +50,6 @@ const formattedTime = (
               size={12} 
             />
             }
-          {/* To do: add another state and if else statement */}
-          {/* To do: Add labels object with strings  */}
         </button>
         <button 
         className="my-btn my-test"
@@ -69,12 +67,7 @@ const formattedTime = (
     <div className="my-input">
       <input type="text" size="40"/>
     </div>
-    {/* Kan op 3 regels  */}
-    {/* loop functie?  */}  
-    {/* of component?  */}
     <textarea className="my-input" cols="39" rows="15"></textarea>
     </>
   );
 }
-
-// 
