@@ -33,7 +33,7 @@ const formattedTime = (
   return (
     <>     
     <div className="my-margin">
-      <h1>Stopwatch</h1>
+      <h1 class="test">Stopwatch</h1>
         <p>{formattedTime}</p>
         <button 
           className="my-btn"
